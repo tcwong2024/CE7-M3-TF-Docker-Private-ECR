@@ -1,4 +1,4 @@
-# Module 3: Assigment 3.5
+# Module 3: Assignment 3.5
 
 ## How to create docker image contain app and deploy to private ECR using Terraform
 
@@ -6,7 +6,7 @@
 
 2. Under your local git folder create **terraform"** folder to store all TF files (**backend.tf**, **compute.tf**, **provider.tf** and **variable.tf**) use to setup private ECR repository.
 
-3. Locate to **terraform** folder and run below command one by one. After "terraform apply" success, your private ECR repository will created and please check on AWS console online.
+3. Locate to **terraform** folder and run below command one by one. After "terraform apply" success, your private ECR repository will create and please check on AWS console online.
 
 ```
     terraform init
@@ -17,8 +17,8 @@
 4. Locate to **flask_app** folder you should have files created below.
     | File name | Description |
     |-----|-----|
-    | app.py| Python code for web application - the outpur will printed "hello,  <your name>"|
-    | Dockerfile | Contain all necessary infomation to build a docker image|
+    | app.py| Python code for web application - the output will be printed "hello,  <your name>"|
+    | Dockerfile | Contain all necessary information to build a docker image|
     | requirements.txt | Requirement software need to be installed. eg. flask|
 
 5. Test to build docker images locally, make sure you have docker installed. Run the command below, you should be able to curl the website url.
